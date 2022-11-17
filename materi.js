@@ -45,23 +45,6 @@
 
 // console.log(result);
 
-// looping
-
 // for (let i = 5; i >= -5; i--) {
 //   console.log(i);
 // }
-
-for (let i = 1; i <= 15; i++) {
-  console.log(i);
-  let num = i;
-
-  if (num % 15 == 0) {
-    console.log("Fizz Buzz");
-  } else if (num % 5 == 0) {
-    console.log("Buzz");
-  } else if (num % 3 == 0) {
-    console.log("Fizz");
-  } else {
-    console.log(i);
-  }
-}
