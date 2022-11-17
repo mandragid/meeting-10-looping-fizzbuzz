@@ -1,20 +1,19 @@
 function fizzBuzz(param) {
-	let result = "";
+	let result;
 	for (let i = 1; i <= param; i++) {
 		console.log(i);
 
 		if (i % 15 == 0) {
-			result = "Fizz Buzz";
+			console.log("Fizz Buzz");
 		} else if (i % 5 == 0) {
-			result = "Buzz";
+			console.log("Buzz");
 		} else if (i % 3 == 0) {
-			result = "Fizz";
+			console.log("Fizz");
 		} else {
-			result = "";
+			result = i;
 		}
 	}
 	return result;
 }
-
-number = fizzBuzz(20);
-console.log(number);
+fizz = fizzBuzz(14);
+console.log(fizz);
